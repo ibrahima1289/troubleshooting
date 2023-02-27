@@ -10,7 +10,7 @@
 Computer\HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Bluetooth\ExceptionDB\Addrs
 ```
 
-![](images/registry_keys.PNG)
+![](./images/registry_keys.PNG)
 
 5. And **delete** the registry key
 6. Try reconecting the keyboard again, you will see the **PIN** again
