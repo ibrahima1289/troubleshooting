@@ -1,3 +1,4 @@
+# Systemd, Service and SSH
 ## Enable Systemd (to SSH) in Windows10 WSL
 
 First, you can install [WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview) if you do not have it already.
@@ -51,3 +52,22 @@ sudo service ssh status
 sudo service ssh stop
 ```
 ![](./images/systemd6.PNG)
+
+## Validate SSH on Windows10 WSL
+Once you are able to check the **ssh** status, you can proceed to setup the **ssh**.
+1. Install OpennSSH server:
+```
+sudo apt update -y
+sudo apt install openssh-server
+```
+
+2. Start the service and validate the OpenSSH service by ssh'ing into the localhost.<br>
+Enter the password when prompted.
+```
+sudo service ssh start
+sudo ssh user_name@localhost
+```
+![](./images/systemd7.PNG)
+
+3. Now you can exit by just typing **exit**.
+![](./images/systemd8.PNG)
