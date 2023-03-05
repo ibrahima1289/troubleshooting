@@ -71,3 +71,10 @@ sudo ssh user_name@localhost
 
 3. Now you can exit by just typing **exit**.
 ![](./images/systemd8.PNG)
+
+## SSH from one computer to another
+
+1. Review the [Powershell firewall](https://learn.microsoft.com/en-us/powershell/module/netsecurity/new-netfirewallrule?view=windowsserver2022-ps) rules on how to set them up.
+
+2. When setting up **ssh** for Ubuntu WSL, review how to set up [firewall with UFW](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-20-04).
+
