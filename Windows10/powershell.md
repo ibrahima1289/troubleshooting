@@ -10,7 +10,6 @@ Get-LocalGroup | Select Name, Objectclass, Principalsource,sid
 ```
 Get-LocalUser
 ```
-
 or
 ```
 net user
