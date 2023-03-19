@@ -34,9 +34,8 @@ Host aws-e2
 5. Click the green button in lower left corner
 ![](./images/ssh4.PNG)
 
-6. Click on `Connect to Host...`
-
-7. Click on `Configure SSH Hosts...`
+6. Click on `Connect to Host...`.
+7. Click on `Configure SSH Hosts...`.
 ![](./images/ssh7.PNG)
 
 8. Click the path with `C:\Users\...\.ssh\config`
@@ -46,7 +45,7 @@ Host aws-e2
 10. Click the `Open the Remote Window` - Green button on the lower left corner. Select the hostname you setup in the config file.
 ![](./images/ssh9.PNG)
 
-11. Select the `OS`
+11. Select the `OS`.
 ![](./images/ssh10.PNG)
 
 12. Click `Continue`
