@@ -26,14 +26,6 @@ vagrant ssh
 ```
 ![](images/vagrant4.PNG)
 * To leave the the VM just type `exit`
-* To see running VMs, run `vagrant global-status`
-![](images/vagrant5.PNG)
-
-* To destroy, just run
-```
-vagrant destroy
-```
-* See [Vagrant CLI](https://developer.hashicorp.com/vagrant/docs/cli) for more info on Vagrant commands.
 
 ### 2. SSH to Vagrant via VSCode
 * Run `vagrant ssh-config`
@@ -58,3 +50,15 @@ Host default
 * To start the VSCode, follow same steps used in  [SSH into EC2 From VS Code](https://github.com/ibrahima1289/troubleshooting/blob/main/Linux/ec2-vscode-ssh.md) from `step 5`.
 <br> You will get somrthing like this:
 ![](images/vagrant7.PNG)
+
+### 3. Clean Up
+* To see running VMs, run `vagrant global-status`
+![](images/vagrant8.PNG)
+
+* To destroy, just run
+```
+vagrant destroy <id_or_namw>
+```
+![](images/vagrant10.PNG)
+
+* See [Vagrant CLI](https://developer.hashicorp.com/vagrant/docs/cli) for more info on Vagrant commands.
