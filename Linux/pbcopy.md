@@ -13,47 +13,49 @@ sudo apt install xclip -y
 2. After installation, type `which xclip` on the teminal to verify:<br>
 ![](./images/pbcopy2.PNG)
 
-To learn more about `xclip` type `man xclip` on the terminal to more options for the command.
+* To learn more about `xclip` type `man xclip` on the terminal to more options for the command.
 
 3. Create an alias
-Open the file `.bashrc` and add the alias below
+* Open the file `.bashrc` and add the alias below
 ```
 alias pbcopy="xclip -sel clip"
 ```
 ![](./images/pbcopy3.PNG)
 
-Restart the terminal!
+* Restart the terminal!
 
 ### Testing
 3. Test command pbcopy
-To test the command we will execute the command below to copy a public ssh key:<br>
+* To test the command we will execute the command below to copy a public ssh key:<br>
 ```
 pbcopy1 < ~/.ssh/<key_name>.pub
 ```
 
 ### Errors?
-If you get this error below, then do the following step:<br>
+* If you get this error below, then do the following step:<br>
 ![](./images/pbcopy4.PNG)
 
 4. Add this forward set up in `~/.ssh/config` file:
-Go to the `config` file:
+* Go to the `config` file:
 ![](./images/pbcopy5.PNG)
 
-Then add
+* Then add
 ![](./images/pbcopy6.PNG)
+* Save and exit from the code editor and restart the terminal.
+* Try the `pbcopy` command again!
 
 5. If you still continue having the same error, use the command `clip.exe` instead of `xclip -sel clip`.<br>
-For this, reset the alias command in step 3 and add:
+* For this, reset the alias command in step 3 and add:
 ```
 alias pbcopy2="clip.exe"
 ```
 ![](./images/pbcopy7.PNG)
 
-Then run the command `pbcopy2 < ~/.ssh/<*key_name*>.pub` after restarting the terminal.<br>
-It should show like this:
+* Then run the command `pbcopy2 < ~/.ssh/<*key_name*>.pub` after restarting the terminal.<br>
+* It should show like this:
 ![](./images/pbcopy8.PNG)
 
-And now you cam paste the public ssh key where you want!
+* And now you cam paste the public ssh key where you want!
 
 ### Sources:
 1. [xclip](https://packages.debian.org/stable/x11/xclip)
