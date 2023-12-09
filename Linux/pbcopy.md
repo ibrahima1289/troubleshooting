@@ -58,3 +58,4 @@ And now you cam paste the public ssh key where you want!
 ### Sources:
 1. [xclip](https://packages.debian.org/stable/x11/xclip)
 2. [Copy SSH keys](https://hklish01.github.io/gettingtoknowgit/set_up_keys.html)
+3. [git push fix](https://www.golinuxcloud.com/fatal-could-not-read-from-remote-repository/)
