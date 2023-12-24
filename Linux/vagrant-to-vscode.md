@@ -3,8 +3,7 @@
 ### 1. Set up Vagrant
 * Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads). You can also use other providers.
 * Install [Vagrant](https://developer.hashicorp.com/vagrant/downloads)
-* Create a directory and cd into it
-
+* Create a directory and cd into it<br>
 ![](images/vagrant1.PNG)
 * Note that after installation, you might need to restart your computer
 * Run the commands below in order to download a box or follow the [Hashicoro](https://developer.hashicorp.com/vagrant/tutorials/getting-started/getting-started-install) documentation
