@@ -41,7 +41,7 @@ Host default
   PubkeyAcceptedKeyTypes +ssh-rsa
   HostKeyAlgorithms +ssh-rsa
 ```
-It should look like this: <br>
+It should look like this screenshot below. Note that you can change the host name. <br>
 ![](images/vagrant6.PNG)
 
 * To start the VSCode, follow same steps used in  [SSH into EC2 From VS Code](https://github.com/ibrahima1289/troubleshooting/blob/main/Linux/ec2-vscode-ssh.md) from `step 5`.<br> 
